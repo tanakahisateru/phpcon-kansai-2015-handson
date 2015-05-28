@@ -1,0 +1,23 @@
+{
+    "name": "phpcon-kansai-2015-handson",
+    "require": {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "doctrine/dbal": "~2.5",
+        "fxp/composer-asset-plugin": "~1.0",
+        "bower-asset/bootstrap": "~3.3",
+        "bower-asset/jquery": "~2.1",
+        "bower-asset/bootbox": "~4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {"PhpKansai\\TodoManager\\": "src/"}
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "public/assets"
+        }
+    }
+}

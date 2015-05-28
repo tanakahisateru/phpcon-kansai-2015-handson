@@ -1,0 +1,7 @@
+/.idea/
+
+/composer.phar
+/vendor/
+/public/assets/
+/node_modules/
+/var/*.sqlite
