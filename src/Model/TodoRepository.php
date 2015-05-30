@@ -108,7 +108,7 @@ class TodoRepository
         $todo = new TodoEntity();
         $todo->id = intval($row['id']);
         $todo->content = $row['content'];
-        $todo->checked = boolval($row['checked']);
+        $todo->checked = (bool)($row['checked']);
         return $todo;
     }
 }
